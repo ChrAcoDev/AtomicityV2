@@ -1,0 +1,42 @@
+.auth-form {
+  margin: 5%;
+  text-align: center;
+}
+
+.auth-icon {
+  margin: 1%;
+}
+
+.auth-fields {
+  padding: 10px;
+}
+
+.auth-fields div {
+  margin-bottom: 10px;
+}
+
+.auth-fields label {
+  margin: 5px;
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+.auth-submit {
+  border: solid;
+  border-width: 2px;
+  border-color: #333;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
+  color: #333;
+  padding: 5px;
+  width: 10%;
+  transition: .2s;
+}
+
+.auth-submit:hover {
+  background-color: #333;
+  color: white;
+  transition: .2s;
+}
